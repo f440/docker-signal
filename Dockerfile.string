@@ -1,0 +1,5 @@
+FROM alpine
+
+COPY test.sh /tmp/test.sh
+
+CMD /tmp/test.sh
